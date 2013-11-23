@@ -15,6 +15,9 @@ handlers:
 - url: /app
   static_dir: app
 
+- url: /landing_page
+  static_dir: landing_page
+
 - url: .*
   script: main.app
 

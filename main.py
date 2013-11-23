@@ -12,8 +12,8 @@ from user_handles import UserListHandler, getUser
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write(getUser())
-        #return webapp2.redirect('/app/index.html')
+        #self.response.write(getUser())
+        return webapp2.redirect('/landing_page/index.html')
 
 
 
